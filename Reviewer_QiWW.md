@@ -8,3 +8,9 @@ The comparison with LPS is currently limited to settings where $\sigma=0.5$ and$
 
 
 The experiments demonstrate that LSN with various parameter of BS equation consistently outperform PINN and LPS.
+
+>**Q5:** Additional Experiments on Different Dataset: Could authors include experiments on European and American option pricing following [1]? This would further demonstrate the applicability of LSN beyond the Black-Scholes equation.  
+
+**A5:**  We have added experiments on European option pricing using real-world financial data. The results demonstrate that LSN performs well in this setting, further validating its applicability beyond the Black-Scholes equation. We are currently working on extending these experiments to American options.
+
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/market.png width=200 height=150 />
