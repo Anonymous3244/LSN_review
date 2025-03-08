@@ -4,14 +4,7 @@ The comparison with LPS is currently limited to settings where $\sigma=0.5$ and$
 
 **A1:** Thanks and address. We agree that a broader range of parameter values would strengthen the analysis. However, conducting 20 experiments for each method, with each experiment running for 200,000 steps, is time-prohibitive within a two-week timeframe. Instead, we have selected a subset of parameters that cover both small and large differences in $\sigma$ and $r$ to ensure a representative evaluation. Specifically, we have conducted experiments for $(r, \sigma)=\{(0.05, 0.2), (0.2, 0.2), (0.2, 0.05)\}$. The results show consistent performance of LSN across these parameters, further validating its robustness. As shown in the following experiments,
 
-
-#### Extension to Vasicek Model
-
-The results of additional experiments on other operator combinations are shown below. 
-
-
-
-<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/r02sigma005l10001l21l301l4001.png width=200 height=300 /><img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/r02sigma02l10001l21l301l4001.png width=200 height=300 /><img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/r005simga02l10001l21l301l4001.png width=200 height=300 />
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/r02sigma005l10001l21l301l4001.png width=200 height=150 /><img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/r02sigma02l10001l21l301l4001.png width=200 height=150 /><img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/r005simga02l10001l21l301l4001.png width=200 height=150 />
 
 
 The experiments demonstrate that LSN with various parameter of BS equation consistently outperform PINN and LPS.
