@@ -9,6 +9,16 @@ The comparison with LPS is currently limited to settings where $\sigma=0.5$ and$
 
 The experiments demonstrate that LSN with various parameter of BS equation consistently outperform PINN and LPS.
 
+
+>**Q2:** Moreover, I believe LPS should be trained with various $\lambda_4$ for fair comparison. I suggest using $\lambda_4=1e−3, 1e−4, 1e−5$.
+
+**A2:**  Thanks. To ensure a fair comparison, we have meticulously fine-tuned LPS in Figure 7 of the manuscript. Specifically, we explored a comprehensive range of values for $\lambda_4$, including 10, 1, 1e-1, 1e-2, 1e−3, and 1e−4.
+
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/fig7_r_01_sigma_04_l4.pdf width=200 height=150 />
+
+
+
+
 >**Q5:** Additional Experiments on Different Dataset: Could authors include experiments on European and American option pricing following [1]? This would further demonstrate the applicability of LSN beyond the Black-Scholes equation.  
 
 **A5:**  We have added experiments on European option pricing using real-world financial data. The results demonstrate that LSN performs well in this setting, further validating its applicability beyond the Black-Scholes equation. We are currently working on extending these experiments to American options.
