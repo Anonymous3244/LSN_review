@@ -14,7 +14,7 @@ The experiments demonstrate that LSN with various parameter of BS equation consi
 
 **A2:**  Thanks. To ensure a fair comparison, we have meticulously fine-tuned LPS in Figure 7 of the manuscript. Specifically, we explored a comprehensive range of values for $\lambda_4$, including 10, 1, 1e-1, 1e-2, 1e−3, and 1e−4.
 
-<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/fig7_r_01_sigma_04_l4.pdf width=200 height=150 />
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/fig7_r_01_sigma_04_l4_00.png width=200 height=150 />
 
 
 
