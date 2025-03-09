@@ -24,3 +24,10 @@
 | **FDM**        | 1.81e+3     | 1.80e+3     | 1.78e+3     | 1.77e+3     |
 | **LSN**        | 4.83e-3     | 1.20e-3     | 3.71e-3     | 2.46e-3     |
 | **PINN**       | 2.15e-1     | 1.28e-1     | 2.11e-1     | 1.60e-1     |
+
+>**Q8:.**   Add more details in Section 4.1 on how the conservation law corresponding to G2 is derived, and on the reason why the specific one-parameter subgroup G2 is chosen
+
+**A8:**  Thanks. We will include the derivation of the conservation law corresponding to G2 in Section 4.1. We chose G2 because it is simple, allowing us to clearly demonstrate the core ideas of our method. We have also included additional experiments for Vasicek equation in the Appendix A.3 using different operators to validate the method’s effectiveness.
+
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/nG_Figure_6.png width=200 height=150 /><img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/nG_Figure_10.png width=200 height=150 />
+
