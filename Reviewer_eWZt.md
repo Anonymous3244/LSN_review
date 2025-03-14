@@ -25,9 +25,13 @@
 | **LSN**        | 4.83e-3     | 1.20e-3     | 3.71e-3     | 2.46e-3     |
 | **PINN**       | 2.15e-1     | 1.28e-1     | 2.11e-1     | 1.60e-1     |
 
->**Q8:.**   Add more details in Section 4.1 on how the conservation law corresponding to G2 is derived, and on the reason why the specific one-parameter subgroup G2 is chosen
+>**Q8:**   Add more details in Section 4.1 on how the conservation law corresponding to G2 is derived, and on the reason why the specific one-parameter subgroup G2 is chosen
 
 **A8:**  Thanks. We will include the derivation of the conservation law corresponding to G2 in Section 4.1. We chose G2 because it is simple, allowing us to clearly demonstrate the core ideas of our method. We have also included additional experiments for Vasicek equation in the Appendix A.3 using different operators to validate the method’s effectiveness.
 
 <img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/nG_Figure_6.png width=200 height=150 /><img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/nG_Figure_10.png width=200 height=150 />
 
+> **Q9:** It might sitll be helpful to add an experiment for a third PDE for the camera ready version.
+
+**A9:** Thanks. We conducted the third PDE experiment (Maxwellian tails model : $u_{xt}+u_x+u^2=0$).  LSN consistently outperforms others in terms of test error. These results will be included in the final version.
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/maxwell.png width=200 height=150 />
