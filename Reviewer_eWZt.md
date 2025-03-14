@@ -31,7 +31,3 @@
 
 <img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/nG_Figure_6.png width=200 height=150 /><img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/nG_Figure_10.png width=200 height=150 />
 
-> **Q9:** It might sitll be helpful to add an experiment for a third PDE for the camera ready version.
-
-**A9:** Thanks. We conducted the third PDE experiment (Maxwellian tails model : $u_{xt}+u_x+u^2=0$).  LSN consistently outperforms others in terms of test error. These results will be included in the final version.
-<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/maxwell.png width=200 height=150 />
