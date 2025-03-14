@@ -24,3 +24,9 @@
 | **FDM**        | 1.81e+3     | 1.80e+3     | 1.78e+3     | 1.77e+3     |
 | **LSN**        | 4.83e-3     | 1.20e-3     | 3.71e-3     | 2.46e-3     |
 | **PINN**       | 2.15e-1     | 1.28e-1     | 2.11e-1     | 1.60e-1     |
+
+> **Q3:** It might sitll be helpful to add an experiment for a third PDE for the camera ready version.
+
+**A3:** Thanks. We conducted the third PDE experiment (Maxwellian tails model : $u_{xt}+u_x+u^2=0$).  LSN consistently outperforms others in terms of test error. These results will be included in the final version.
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/maxwell.png width=200 height=150 />
+
