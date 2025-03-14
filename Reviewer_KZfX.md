@@ -31,5 +31,5 @@
 
 Following your suggestion, we further conducted experiments for a third PDE (Maxwellian tails model: $u_{xt}+u_x+u^2=0$).  LSN consistently outperforms other methods in terms of test error. These results will be included in the final version.
 
-<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/maxwell.png width=200 height=150 />
+<img src=https://github.com/Anonymous3244/LSN_review/blob/main/Fig/maxwell1.png width=200 height=150 />
 
